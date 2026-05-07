@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: gost;
+    src: url(./Storm\ Gust.otf);
+}
+
+@font-face {
+    font-family: patlnun;
+    src: url(./Storm\ Gust.ttf);
+}
+
+/* extenal css */
+
+h2{
+    background-color: yellow;
+    color: brown;
+    text-align: center;
+    /* font-family: patlnun; */
+
+    /* font-family: ;
+     */
+     /* font-family: "Playwrite AR Guides" */
+     font-family: "Supermercado One";
+}
+
+
+#gost{
+    font-family: gost;
+}
+
+
+#id{
+    font-size: 45px;
+    background-color: beige;
+}
+
+
+.class{
+    background-color: cadetblue;
+    color: azure;
+}
+
+
+p{
+    background-color: aquamarine;
+}
+
+.main h1{
+    background-color: chocolate;
+}
+
+.main > h1 {
+    background-color: rgb(195, 210, 37);
+}
+
+.child h1:hover{
+    background-color: rgb(227, 77, 77);
+}

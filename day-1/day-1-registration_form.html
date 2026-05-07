@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="dat-1-register.css">
+</head>
+<body>
+    
+    <h1 class="main">Registration form </h1>
+
+    <hr>
+
+    <form action="www.google.com" method="post">
+        <label for="name">name</label>
+        <input type="text" id="name">
+
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" required autocomplete="krishna" aria-required="true" id="email">
+
+        <br>
+        <label for="Gender">gender</label>
+        <input type="radio" id="gender" name="gender">
+        <input type="radio" name="gender">
+
+        <br>
+        <label for="Password">Password</label>
+        <input type="password" id="Password">
+
+        <br>
+        <label for="course">Course</label>
+        <select name="course" id="course">
+            <option id="course" value="bca">Bca</option>
+            <option id="course" value="bcom">Bcom</option>
+        </select>
+
+        <br>
+        <label for="address">Address</label>
+        <textarea name="address" id="address"></textarea>
+
+        <br>
+
+        <br>
+        
+        <label for="resume">upload file</label>
+        <input type="file">
+        <br>
+        
+        <label for="condition">term-condition</label>
+        <input type="checkbox" id="condition">
+        <br>
+        <button type="submit">submit</button>
+    </form>
+
+<details>
+    <summary>learn more</summary>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus et, sint sit labore doloremque magnam, facilis esse fugit minus dolor dolores optio, adipisci facere blanditiis praesentium corrupti nihil reiciendis inventore eum. Impedit quasi totam ut esse voluptate aliquam, commodi mollitia cupiditate fugit ullam ex quis. Omnis cumque illo magnam.</p>
+</details>
+
+
+<form action="/submit" method="POST" novalidate>
+  <fieldset>
+    <legend>Personal Information</legend>
+
+    <div class="form-group">
+      <label for="full-name">Full name <span aria-hidden="true">*</span></label>
+      <input
+        type="text"
+        id="full-name"
+        name="fullName"
+        required
+        autocomplete="name"
+        aria-required="true"
+        aria-describedby="name-hint"
+      >
+      <span id="name-hint">Enter your name as it appears on official documents</span>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        autocomplete="email"
+        required
+      >
+    </div>
+
+    <fieldset>
+      <legend>Preferred contact method</legend>
+      <label><input type="radio" name="contact" value="email"> Email</label>
+      <label><input type="radio" name="contact" value="phone"> Phone</label>
+    </fieldset>
+
+  </fieldset>
+
+  <button type="submit">Submit form</button>
+</form>
+
+    
+
+</body>
+</html>
