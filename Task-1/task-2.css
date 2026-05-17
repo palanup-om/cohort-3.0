@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: #fcf4ed;
+    padding: 15px 30px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    align-items: center;
+    padding: 15px 30px;
+
+}
+
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.logo img{
+    width: 9rem;
+}
+
+.navContaint{
+    display: flex;
+    gap: 2rem;
+}
+
+.search{
+    border: 2px solid #0000006b;
+    border-radius: 15px;
+    padding: 5px 12px;
+}
+
+ input {
+    border: none;
+    background-color: transparent;
+    padding-left: 5px;
+ }
+
+ .navContaint h4:first-child{
+    border-bottom: 3px solid rgba(0, 128, 0, 0.415);
+ }
+
+
+#page2{
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    
+  }
+
+ #page2 .p2left{
+    width: 50%;
+    /* background-color: red; */
+    height: 400px;
+ }
+
+  #page2 .p2right{
+    width: 50%;
+    
+    height: 400px;
+  }
+
+  .p2Content{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+
+
+  .p2Content p:first-child{
+    border: 2px solid #628a2d;
+    width: fit-content;
+    border-radius:15px ;
+    padding: 3px 10px;
+    color: #6a9631 ;
+    background-color: #eaecdb;
+  }
+
+  .p2button{
+    display: flex;
+    gap: 3rem;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+   .p2Content h1{
+    font-size: 4rem;
+   }
+
+   .p2Content h1 span{
+    color: #20511e;
+    font-weight: 900;
+   }
+
+   .p2Content p:last-child{
+    color: #696766;
+    font-size: 1.4rem;
+   }
+
+   .p2button button{
+    border: 1px solid #000;
+    padding: 13px 15px;
+    border-radius: 22px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+     background-color: #000000e1;
+     padding-left: 5px;
+     margin-top: 15px;
+     margin-right: 2rem;
+   }
+
+   .p2button button i{
+    border: 1px solid #fecc6b;
+    border-radius: 50%;
+    padding: 8px;
+    background-color:#fecc6b ;
+    color: #000;
+    margin-right: 15px;
+   }
+
+   .inc{
+    margin-top: 11px;
+    display: flex;
+    gap: 15px;
+    border: 1px solid #0000003a ;
+    width: fit-content;
+    padding: 7px 11px;
+    border-radius: 22px;
+    background-color: #fff;
+    box-shadow: 0px  5px  rgba(0, 0, 40, .2);
+   }
+
+   .inc h5{
+    font-size: 22px;
+   }
+
+   .circle i{
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    color: green;
+   }
+
+   .box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   }
+
+   #fire{
+    color: #f39e22;
+   }
+
+   #heart{
+    color: #da2633;
+   }
+
+   .p2last{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+   }
+
+
+   #page3{
+    width: 100%;
+    height: 27%;
+    background-color: #175d3d;
+    margin-top: 2rem;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    padding: 10px;
+     display: flex;
+    gap: 5%;
+   }
+
+   #page3 h2{
+    font-size: ;
+   }
+
+
+   #arrow {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+   }
+
+   .arrow i{
+    border: 1px solid ;
+    width: fit-content;
+    border-radius: 50%;
+    gap: rem;
+    padding: 1rem;
+    margin-top: 60px;
+    background-color: #fbf4ec;
+   }
+
+   .p3card{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: fit-content;
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+   }
+
+
+
+   .chipsBox{
+    border: px solid ;
+    height: 100%;
+    width: 22%;
+    background-color:#fbf5ec;
+    padding: 8px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+   }
+
+   .packet{
+    width: 40%;
+    height: 100%;
+    /* background-color: #fff; */
+   }
+
+   .packetInfo{
+    width: 50%;
+
+   }
+
+   .packet img{
+    height: 100%;
+   }
+
+   .packetInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: pink; */
+   }
+
+   .packetInfo button{
+    background-color: #db2635;
+    padding: 12px 20px;
+    border-radius: 25px;
+   }
